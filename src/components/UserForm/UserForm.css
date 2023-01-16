@@ -1,0 +1,37 @@
+.full-name-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.email-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.first-name,
+.last-name, .email, .add-user-btn {
+  margin: 15px;
+}
+
+.add-user-btn, .cancel-btn {
+  padding: 15px 5px 0px 40px;
+}
+
+.first-name label,
+.last-name label,
+.email label {
+  margin: 5px;
+}
+
+.user-form {
+  border: 1px solid lightgray;
+  background-color: bisque;
+}
+
+.first-name input,
+.last-name input,
+.email input {
+  font-size: 16px;
+  font-family: sans-serif;
+}
